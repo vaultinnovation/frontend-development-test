@@ -3,7 +3,7 @@
 // Get compiled asset
 function asset($file)
 {
-    $assets = json_decode(file_get_contents(__DIR__ . '/dist/rev-manifest.json'), true);
+    $assets = json_decode(file_get_contents(__DIR__ . '/build/rev-manifest.json'), true);
     return $assets[$file];
 }
 
@@ -21,7 +21,7 @@ function asset($file)
     <title>Vault App</title>
     
     <!-- Custom styles for this template -->
-    <link href="<?php echo asset('app.css'); ?>" rel="stylesheet">
+    <link href="/build/<?php echo asset('app.css'); ?>" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,8 +64,8 @@ function asset($file)
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?php echo asset('components.js'); ?>"></script>
-<script src="<?php echo asset('app.js'); ?>"></script>
+<script src="/build/<?php echo asset('components.js'); ?>"></script>
+<script src="/build/<?php echo asset('app.js'); ?>"></script>
 
 </body>
 </html>
