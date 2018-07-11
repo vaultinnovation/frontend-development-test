@@ -14,5 +14,11 @@
     "rimraf": "^2.4.3",
     "run-sequence": "^1.1.4",
     "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "hamburgers": "^0.9.3",
+    "handlebars": "^4.0.11"
   }
 }

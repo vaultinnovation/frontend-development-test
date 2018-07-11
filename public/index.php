@@ -42,7 +42,7 @@ function asset($file)
                 </span>
             </button>
 
-            <a class="navbar-brand" href="#"><img src="/img/vault.png" class="logo"/></a>
+            <a class="navbar-brand" href="#"><img src="https://vaultinnovation.com/app/themes/vault/assets/img/logo.png" class="logo"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">

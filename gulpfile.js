@@ -32,9 +32,9 @@ gulp.task("default", function() {
 
 gulp.task('css', function() {
     return gulp.src([
-            assetsDir + '/components/bootstrap/dist/css/bootstrap.css',
-            assetsDir + '/components/font-awesome/css/font-awesome.css',
-            assetsDir + '/components/css-hamburgers/dist/hamburgers.css',
+            '/node_modules/bootstrap/dist/css/bootstrap.css',
+            '/node_modules/font-awesome/css/font-awesome.css',
+            '/node_modules/hamburgers/dist/hamburgers.css',
             assetsDir + '/sass/**/*.scss'
         ])
         .pipe(sass({
@@ -50,9 +50,9 @@ gulp.task('css', function() {
 
 gulp.task('components', function() {
     return gulp.src([
-            assetsDir + '/components/jquery/dist/jquery.min.js',
-            assetsDir + '/components/bootstrap/dist/js/bootstrap.js',
-            assetsDir + '/components/handlebars/handlebars.min.js'
+            '/node_modules/jquery/dist/jquery.min.js',
+            '/node_modules/bootstrap/dist/js/bootstrap.js',
+            '/node_modules/handlebars/dist/handlebars.min.js'
         ])
         .pipe(concat('components.js'))
         .pipe(uglify())

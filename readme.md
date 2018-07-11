@@ -16,7 +16,7 @@ For example, if you're on osx, you could [install PHP with homebrew](https://git
 sudo php -S localhost:80 -t public
 ```
 
-1) Use bower to install all the dependencies utilized in gulpfile.js
+1) Use npm to install all the dependencies utilized in gulpfile.js
 
 2) Make the responsive menu icon work using [CSS Hamburgers](https://jonsuh.com/hamburgers/)
 
@@ -24,3 +24,6 @@ sudo php -S localhost:80 -t public
 
 4) Please utilize the provided file structure, and place all custom Sass and Javascript in the appropriate `resources/assets/` folder.
 
+5) Try your best to make the site look polished. Feel free to use new fonts, animated effects, etc. It's very important that all these cats are presentable. 
+
+6) [Make it perfect!](https://youtu.be/pUS_sjVaRjU?list=PLF7131A7CA221DC02&t=76)
