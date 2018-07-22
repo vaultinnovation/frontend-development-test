@@ -1,0 +1,56 @@
+// Import Bootstrap overrides
+@import"_bootstrap_overrides.scss";
+
+// Base Styling
+body {
+  a:hover, a:active, a:focus,
+  button:hover, button:active, button:focus,
+  .btn:hover, .btn:active, .btn:focus
+  {outline: 0; border: none; box-shadow: none}
+}
+
+
+// Components
+.logo {
+  width: 100px;
+}
+
+.sort-menu {
+  padding: 0;
+
+  li {
+    list-style: none; display: inline-block;
+    .btn-gray {
+      background: $gray-100;
+      border-radius: 0;
+      border: 1px solid $gray-200;
+      &:hover {background: darken($gray-100, 5%); border: 1px solid darken($gray-200, 5%)}
+    }
+  }
+  .active {
+    .btn-gray {
+      background: $gray-800; color: $gray-100;
+      &:hover {background: $gray-800; color: $gray-100;}
+    }
+  }
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+
+  .image {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 115%;
+    min-height: 100%;
+    &:hover {width: 125%};
+  }
+}
+
