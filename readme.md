@@ -16,7 +16,7 @@ For example, if you're on osx, you could [install PHP with homebrew](https://git
 sudo php -S localhost:80 -t public
 ```
 
-1) Use npm to install all the dependencies utilized in gulpfile.js
+1) Use npm to install all the dependencies utilized in gulpfile.js. Please update all dependencies as you see fit. 
 
 2) Make the responsive menu icon work using [CSS Hamburgers](https://jonsuh.com/hamburgers/)
 
